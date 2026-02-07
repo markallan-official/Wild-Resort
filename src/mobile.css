@@ -1,0 +1,71 @@
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+
+    /* Navigation Fixes for Mobile */
+    nav.container {
+        gap: 0.5rem;
+        padding: 0 0.5rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        flex-shrink: 0;
+    }
+
+    .logo img {
+        width: 35px !important;
+        height: 35px !important;
+        margin-right: 6px !important;
+    }
+
+    .nav-links {
+        gap: 0.3rem;
+        font-size: 0.7rem;
+    }
+
+    .nav-links a {
+        font-size: 0.65rem;
+        padding: 0.2rem 0.3rem;
+    }
+
+    /* Hide the "Book Your Nature Escape" button on mobile */
+    nav.container>.btn {
+        display: none;
+    }
+
+    /* Hero adjustments */
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    .subheadline {
+        font-size: 0.9rem;
+    }
+
+    /* Button sizing */
+    .btn {
+        font-size: 0.85rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    /* Container padding */
+    .container {
+        width: 95%;
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 0.9rem;
+    }
+
+    .nav-links {
+        gap: 0.25rem;
+    }
+
+    .nav-links a {
+        font-size: 0.6rem;
+        padding: 0.15rem 0.25rem;
+    }
+}
